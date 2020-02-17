@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Estilos aplicados al Encabezado*/
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #000000;
+    font-size: 13px;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 32px;
+}
+
+
+/*Estilos aplicados a la sección principal */
+
+main {
+    margin-top: 100px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+main .main-logo img {
+    width: 270px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+
+main .main-input .search-icon {
+    background-image: url('https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-icono-de-b-squeda-by-vexels.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://inesh.org/blog/wp-content/uploads/2019/10/google-voice-search-increase-your-google-rank.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+main .main-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.style-buttons {
+    margin-top: 11px;
+    margin-right: 4px;
+    margin-bottom: 11px;
+    margin-left: 4px;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #5F6368;
+    cursor: pointer;
+    height: 36px;
+    padding: 0 16px;
+    border: none;
+    outline: none;
+}
+
+.style-buttons:hover {
+    border-color: #dfe1e500;
+    color: #000000;
+    border: 1px solid #c6c6c6;
+}
+
+
+/*Inicio de mi sección Footer*/
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-top: 140px;
+}
+
+footer nav {
+    display: flex;
+    border: 1px solid #e4e4e4;
+}
+
+.footer-one a {
+    margin: 13px;
+    margin-left: 30px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    color: #6f6f6f;
+}
+
+.footer-two a {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #8d8d8d;
+    font-weight: bold;
+    margin-right: 16px;
+}
+
+.footer-two .list-one {
+    margin-left: -6px;
+    list-style: none;
+    display: flex;
+}
+
+.footer-two .list-two {
+    list-style: none;
+    display: flex;
+    margin-left: 550px;
+}
+
+.footer-two a:hover {
+    text-decoration: underline;
+}
